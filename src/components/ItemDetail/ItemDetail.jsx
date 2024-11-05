@@ -35,10 +35,10 @@ export default function ItemDetail() {
                     <p>Stock: {product.stock}</p>
 
                     <div>
-                        <h3>Tallas disponibles:</h3>
+                        <h3>Vegetale y frutas disponibles:</h3>
                         <ul>
-                            {product.sizes.map((size, index) => (
-                                <li key={index}>{size}</li>
+                            {product.vegetalesfrutas.map((frutas, index) => (
+                                <li key={index}>{frutas}</li>
                             ))}
                         </ul>
                     </div>
