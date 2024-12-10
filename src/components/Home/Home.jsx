@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
-
+import imgBanener from "../../../public/imagen/banner2.jpg"
 
 export default function HomePage() {
-    const imgBanner = './slide-bg-1.jpg';
+    const imgBanner = imgBanener;
     return (
         <div>
             <div
@@ -15,7 +15,7 @@ export default function HomePage() {
                         featured
                     </h2>
                     <h2 className="text-[#ffffff] font-bold text-[100px] leading-[80px] uppercase">Cycle</h2>
-                    <Link to="/" className="bg-[#2d3a4b] px-[50px] py-[5px] text-[18px] uppercase leading-[46px] flex w-[210px] text-center text-[#ffffff] mt-[30px]">SHOP NOW</Link>
+                    <Link to="/" className="bg-[#2d3a4b] px-[50px] py-[5px] text-[18px] uppercase leading-[46px] flex w-[210px] text-center text-[#ffffff] mt-[30px]">Comprar</Link>
 
                 </div>
             </div>

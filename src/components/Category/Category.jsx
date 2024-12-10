@@ -1,14 +1,8 @@
-// HOOKS DE REACT PARA USESTATE Y EFFECT
+
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-
-// IMPORTO FUNCION PARA OBTENER LOS PRODUCTOS POR CATEGORIAS
 import { getProductByCategory } from "../../data/asyncMock";
-
-// IMPORTO ITEMLIST
 import ItemList from "../ItemList/ItemList";
-
-// IMPORTO EL LOADING
 import Loading from "../Loading/Loading";
 
 export default function ProductsCategory(){
