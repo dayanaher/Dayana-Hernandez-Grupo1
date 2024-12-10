@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 /* eslint-disable */
 import React from "react";
 
-    export default function FooterComponent() {
+    const FooterComponent = () => {
         return (
             <footer className="bg-green-600 py-[60px] w-[100vw]">
                 <div className="container mx-auto">
@@ -49,24 +49,5 @@ import React from "react";
         );
     }
 
+export default FooterComponent;
 
-
-=======
-/* eslint-disable */
-import React from "react";
-
-
-function Footer() {
-    return (
-        <footer className="footer">
-            <div className={"container container footer"}>
-
-                      <p>&copy; 2024 Mi Aplicación. Todos los derechos reservados.</p>
-            </div>
-
-        </footer>
-    );
-}
-
-export default Footer;
->>>>>>> 7586f7d60cea32e1abfe70403978ce78da42eca8
