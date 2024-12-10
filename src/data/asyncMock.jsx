@@ -47,6 +47,7 @@ export const products = [
         category: 'Frutas',
 
     },
+    //asy
     {
         id: 6,
         name: 'Morrón',
