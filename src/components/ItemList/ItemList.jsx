@@ -3,6 +3,7 @@ import { getProducts } from "../../data/asyncMock"
 import { useEffect, useState } from "react"
 import Loading from "../Loading/Loading";
 
+// eslint-disable-next-line react/prop-types
 export default function ItemList({ products: initialProducts }){
     const [products, setProducts] = useState(initialProducts || []);
     const [loading, setLoading] = useState(!initialProducts);
