@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Navbar from "../Navbar/Navbar";
 export default function HeaderComponent() {
 
@@ -10,3 +11,19 @@ export default function HeaderComponent() {
         </div>
     );
 }
+=======
+
+import React from "react";
+
+function Header()  {
+    return(
+        <header className={"nav-arial light-blue darken-2"}>
+            <h3 className={"Brand-logo"}>Header</h3>
+
+        </header>
+
+    )
+}
+
+export default Header;
+>>>>>>> 7586f7d60cea32e1abfe70403978ce78da42eca8

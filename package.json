@@ -2,6 +2,10 @@
   "name": "miprimerproyecto",
   "private": true,
   "version": "0.0.0",
+<<<<<<< HEAD
+=======
+  "type": "module",
+>>>>>>> 7586f7d60cea32e1abfe70403978ce78da42eca8
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,15 +15,20 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
     "react-router-dom": "^6.28.0",
     "react-spinners": "^0.14.1",
     "zustand": "^5.0.1"
+=======
+    "react-spinners": "^0.14.1"
+>>>>>>> 7586f7d60cea32e1abfe70403978ce78da42eca8
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+<<<<<<< HEAD
     "autoprefixer": "^10.4.20",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
@@ -28,6 +37,13 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
+=======
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+>>>>>>> 7586f7d60cea32e1abfe70403978ce78da42eca8
     "vite": "^5.4.1"
   }
 }
