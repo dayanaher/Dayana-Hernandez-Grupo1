@@ -1,5 +1,3 @@
-/* eslint-disable */
-import React, { useState } from 'react'
 import './App.css'
 import HeaderComponent from './components/Header/Header';
 import FooterComponent from './components/Footer/Footer';
